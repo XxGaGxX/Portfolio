@@ -40,16 +40,13 @@ function Homepage() {
             <motion.i
               key={icon}
               initial={{ opacity: 0, y: 100 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  delay: index * 0.2,
-                  duration: 1,
-                  ease: "easeInOut",
-                },
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: index * 0.2,
+                duration: 1,
+                ease: "easeInOut",
               }}
-              viewport={{ once: true, amount: 1 }}
+              viewport={{ once: false, amount: 0.3 }}
               className={`devicon-${icon} dev overflow-visible text-6xl md:text-9xl`}
             />
           ))}
@@ -70,16 +67,13 @@ function Homepage() {
             <motion.i
               key={icon + "-bottom"}
               initial={{ opacity: 0, y: 100 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  delay: index * 0.2,
-                  duration: 1,
-                  ease: "easeInOut",
-                },
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: index * 0.2,
+                duration: 1,
+                ease: "easeInOut",
               }}
-              viewport={{ once: true, amount: 0.3 }}
+              viewport={{ once: false, amount: 0.3 }}
               className={`devicon-${icon} dev overflow-visible text-6xl md:text-9xl`}
             />
           ))}
