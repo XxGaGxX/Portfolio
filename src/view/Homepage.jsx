@@ -27,9 +27,8 @@ function Homepage() {
       </div>
 
       {/* SECTION 2 */}
-      {/* SECTION 2 */}
-      <div className='bg-amber-300 flex flex-col h-screen snap-start items-center justify-center'>
-        <div className='flex flex-1 flex-col md:flex-row w-full h-full justify-center items-center overflow-visible gap-6 py-8'>
+      <div className='bg-amber-300 flex flex-col h-screen snap-start items-center justify-center overflow-visible'>
+        <div className='flex flex-1 flex-col md:flex-row w-full h-full justify-around items-center overflow-visible gap-6 py-8'>
           {[
             "javascript-plain",
             "html5-plain-wordmark",
@@ -48,15 +47,15 @@ function Homepage() {
                 ease: "easeInOut",
               }}
               viewport={{ once: false, amount: 0.3 }}
-              className={`devicon-${icon} dev overflow-visible text-5xl md:text-7xl`}
+              className={`devicon-${icon} dev overflow-visible text-6xl md:text-9xl`}
             />
           ))}
         </div>
       </div>
 
       {/* SECTION 3 */}
-      <div className='flex-1 bg-sky-300 snap-start flex items-center justify-center h-screen'>
-        <div className='flex flex-1 flex-col md:flex-row w-full min-h-[300px] h-full justify-center items-center overflow-visible gap-6 py-8'>
+      <div className='flex-1 bg-sky-300 snap-start flex items-center justify-center h-screen overflow-visible'>
+        <div className='flex flex-1 flex-col md:flex-row w-full min-h-[300px] h-full justify-around items-center overflow-visible gap-6 py-8'>
           {[
             "nodejs-plain-wordmark",
             "react-original-wordmark",
@@ -75,12 +74,11 @@ function Homepage() {
                 ease: "easeInOut",
               }}
               viewport={{ once: false, amount: 0.3 }}
-              className={`devicon-${icon} dev overflow-visible text-5xl md:text-7xl`}
+              className={`devicon-${icon} dev overflow-visible text-6xl md:text-9xl`}
             />
           ))}
         </div>
       </div>
-
     </div>
   )
 }
