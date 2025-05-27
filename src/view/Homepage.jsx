@@ -49,7 +49,7 @@ function Homepage() {
                   ease: "easeInOut",
                 },
               }}
-              viewport={{ once: false, amount: 1 }}
+              viewport={{ once: true, amount: 1 }}
               className={`devicon-${icon} dev overflow-visible text-6xl md:text-9xl`}
             />
           ))}
@@ -79,7 +79,7 @@ function Homepage() {
                   ease: "easeInOut",
                 },
               }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.3 }}
               className={`devicon-${icon} dev overflow-visible text-6xl md:text-9xl`}
             />
           ))}
