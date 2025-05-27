@@ -34,6 +34,7 @@ function Homepage() {
           }}
           viewport={{ once: true, amount: 1 }}
         >
+          <p>Prova</p>
           
         </motion.div>
       </div>
