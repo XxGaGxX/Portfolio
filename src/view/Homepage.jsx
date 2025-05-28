@@ -35,55 +35,59 @@ function Homepage() {
 
       {/* SECTION 2 */}
       <div className='bg-amber-300 flex h-screen snap-start items-center justify-center'>
-        <div className='flex flex-wrap justify-center items-center w-full h-full gap-6 p-6'>
-          {[
-            "javascript-plain",
-            "html5-plain-wordmark",
-            "css3-plain-wordmark",
-            "dart-plain",
-            "csharp-plain",
-            "microsoftsqlserver-plain"
-          ].map((icon, index) => (
-            <motion.i
-              key={icon}
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                delay: index * 0.2,
-                duration: 1,
-                ease: "easeInOut",
-              }}
-              viewport={{ once: true, amount: 0.1 }}
-              className={`devicon-${icon} dev text-5xl sm:text-7xl md:text-8xl lg:text-9xl`}
-            />
-          ))}
+        <div className='w-full h-full flex items-center justify-center'>
+          <div className='grid grid-cols-3 md:grid-cols-6 gap-6 p-6'>
+            {[
+              "javascript-plain",
+              "html5-plain-wordmark",
+              "css3-plain-wordmark",
+              "dart-plain",
+              "csharp-plain",
+              "microsoftsqlserver-plain"
+            ].map((icon, index) => (
+              <motion.i
+                key={icon}
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  delay: index * 0.2,
+                  duration: 1,
+                  ease: "easeInOut",
+                }}
+                viewport={{ once: true, amount: 0.1 }}
+                className={`devicon-${icon} dev text-7xl sm:text-7xl md:text-8xl lg:text-9xl`}
+              />
+            ))}
+          </div>
         </div>
       </div>
 
       {/* SECTION 3 */}
-      <div className='bg-sky-300 flex flex-col h-screen snap-start items-center justify-center'>
-        <div className='flex flex-wrap justify-center items-center w-full h-full gap-6 p-6'>
-          {[
-            "nodejs-plain-wordmark",
-            "react-original-wordmark",
-            "angularjs-plain",
-            "vuejs-plain-wordmark",
-            "dotnetcore-plain",
-            "flutter-plain"
-          ].map((icon, index) => (
-            <motion.i
-              key={icon + "-bottom"}
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                delay: index * 0.2,
-                duration: 1,
-                ease: "easeInOut",
-              }}
-              viewport={{ once: true, amount: 0.1 }}
-              className={`devicon-${icon} dev text-5xl sm:text-7xl md:text-8xl lg:text-9xl`}
-            />
-          ))}
+      <div className='bg-sky-300 flex h-screen snap-start items-center justify-center'>
+        <div className='w-full h-full flex items-center justify-center'>
+          <div className='grid grid-cols-3 md:grid-cols-6 gap-6 p-6'>
+            {[
+              "nodejs-plain-wordmark",
+              "react-original-wordmark",
+              "angularjs-plain",
+              "vuejs-plain-wordmark",
+              "dotnetcore-plain",
+              "flutter-plain"
+            ].map((icon, index) => (
+              <motion.i
+                key={icon + "-bottom"}
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  delay: index * 0.2,
+                  duration: 1,
+                  ease: "easeInOut",
+                }}
+                viewport={{ once: true, amount: 0.1 }}
+                className={`devicon-${icon} dev text-7xl sm:text-7xl md:text-8xl lg:text-9xl`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
