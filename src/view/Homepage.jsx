@@ -8,7 +8,7 @@ function Homepage() {
       {/* HERO SECTION */}
       <div className='flex flex-col min-h-screen'>
         <div className='flex flex-1 flex-col md:flex-row items-center justify-center h-screen snap-start gap-6 md:gap-14 p-4 md:p-6'>
-          <motion.div className="w-4/5 sm:w-2/3 md:w-1/3 lg:w-1/4 shadow-2xl rounded-2xl">
+          <motion.div className="w-40 h-40 sm:w-2/3 md:w-1/3 lg:w-1/4 shadow-2xl rounded-2xl">
             <motion.img
               src="https://avatars.githubusercontent.com/u/139184713?v=4"
               alt="Diego Vagnini Avatar"

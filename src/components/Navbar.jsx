@@ -44,7 +44,7 @@ function Navbar() {
                             initial={{ x: '100%' }}
                             animate={{ x: 0 }}
                             exit={{ x: '100%' }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: 0.2 }}
                             className="absolute right-0 top-0 h-full w-72 bg-white p-6 shadow-lg"
                             onClick={(e) => e.stopPropagation()}
                         >
