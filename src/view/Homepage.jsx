@@ -4,7 +4,7 @@ import "../style/Homepage.css"
 
 function Homepage() {
   return (
-    <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory pt-16">
       {/* HERO SECTION */}
       <div className='flex flex-col min-h-screen'>
         <div className='flex flex-1 flex-col md:flex-row items-center justify-center h-screen snap-start gap-6 md:gap-14 p-4 md:p-6'>
@@ -14,7 +14,7 @@ function Homepage() {
               alt="Diego Vagnini Avatar"
               className='w-full rounded-2xl border-amber-400 border-4 md:border-8 object-contain'
               animate={{ scale: 1, rotate: 360, rotateY: 360 }}
-              transition={{ duration: 1.2 }}
+              transition={{ duration: 1 }}
             />
           </motion.div>
 
@@ -34,7 +34,7 @@ function Homepage() {
       </div>
 
       {/* SECTION 2 */}
-      <div className='bg-amber-300 flex flex-col h-screen snap-start items-center justify-center'>
+      <div className='bg-amber-300 flex h-screen snap-start items-center justify-center'>
         <div className='flex flex-wrap justify-center items-center w-full h-full gap-6 p-6'>
           {[
             "javascript-plain",
