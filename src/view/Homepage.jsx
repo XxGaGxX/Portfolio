@@ -22,7 +22,7 @@ function Homepage() {
             <p className='text-xl md:text-3xl text-gray-500'>Hi, I'm</p>
             <p className='text-3xl sm:text-5xl lg:text-8xl text-amber-400 leading-tight break-words'>Diego Vagnini</p>
             <p className='text-base sm:text-xl lg:text-3xl text-gray-500 mt-3 md:mt-6 max-w-[90vw]'>
-              I build web applications with clean, scalable JavaScript/TypeScript code, focusing on APIs and user experience.
+              I build web applications with clean, scalable JavaScript code, focusing on APIs and user experience.
             </p>
           </div>
         </div>
