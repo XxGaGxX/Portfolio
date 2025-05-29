@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-![Portfolio Preview](/public/BlockVision.png)
+![Portfolio Preview](/public/Portfolio.png)
 
 ## 🚀 Overview
 
