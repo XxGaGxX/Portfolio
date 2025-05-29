@@ -27,7 +27,7 @@ function Projects() {
 
   return (
     <div className='min-h-screen pt-32 pb-16 flex items-center justify-center bg-gradient-to-tr from-amber-300 via-sky-400 to-purple-500 '>
-      <div className=" flex flex-col md:grid md:grid-cols-2 lg:grid-cols-4 md:justify-items-center justify-center items-center gap-y-8 md:gap-x-8">
+      <div className=" flex flex-col md:grid md:grid-cols-2  p-9 lg:grid-cols-4 md:justify-items-center justify-center items-center gap-y-8 md:gap-x-8">
         {
           projects.length <= 0 ? <div>fetching...</div> :
             projects.map((project, index) => (
