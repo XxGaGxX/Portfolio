@@ -7,8 +7,8 @@ function Navbar() {
     const toggleMenu = () => setIsOpen((prev) => !prev);
 
     return (
-        <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
-            <nav className="flex items-center justify-between px-6 py-4 lg:px-12 max-w-7xl mx-auto">
+        <header className="fixed top-0 left-1/2 transform -translate-x-1/2 w-3/4 z-50 bg-white shadow-md rounded-3xl mt-3">
+            <nav className="flex items-center justify-between px-6 py-4 lg:px-12 max-w-7xl mx-auto ">
                 {/* Logo */}
                 <div className="flex items-center">
                     <a href="/" className="text-xl font-bold text-gray-900 hover:text-yellow-500 transition-colors duration-300">
