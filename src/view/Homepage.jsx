@@ -12,24 +12,27 @@ function Homepage() {
             <motion.img
               src="https://avatars.githubusercontent.com/u/139184713?v=4"
               alt="Diego Vagnini Avatar"
-              className='w-full rounded-2xl border-amber-400 border-4 md:border-8 object-contain'
-              animate={{ scale: 1, rotate: 360, rotateY: 360 }}
+              className='w-full rounded-2xl border-gray-900 border-4 md:border-8 object-contain'
+              initial={{ opacity: 0  }}
+              whileInView={{ opacity: 1 }}
               transition={{ duration: 1 }}
             />
           </div>
           <div className='w-full md:w-1/2 flex flex-col mt-5 px-4 md:px-6 items-start'>
-            <p className='text-xl md:text-3xl text-gray-500'>Hi, I'm</p>
-            <p className='text-3xl sm:text-5xl lg:text-8xl text-amber-400 leading-tight break-words'>Diego Vagnini</p>
-            <p className='text-base sm:text-xl lg:text-3xl text-gray-500 mt-3 md:mt-6 max-w-[90vw]'>
+            <motion.p initial={{y:-100,opacity: 0}} whileInView={{opacity:1, y:0}} transition={{duration: 1}} className='text-xl md:text-3xl text-gray-500'>Hi, I'm</motion.p>
+            <motion.p initial={{ x: 100, opacity: 0 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1, delay:0.2 }} className="text-transparent bg-clip-text bg-gradient-to-r font-bold from-amber-300 via-sky-400 to-purple-500 text-5xl sm:text-6xl lg:text-8xl leading-tight break-words">
+              Diego Vagnini
+            </motion.p>
+            <motion.p initial={{ y: 100, opacity: 0 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.4 }} className='text-base sm:text-xl lg:text-3xl text-gray-500 mt-3 md:mt-6'>
               I build web applications with clean, scalable JavaScript code, focusing on APIs and user experience.
-            </p>
+            </motion.p>
           </div>
         </div>
 
-        <div className='mb-6 flex flex-col items-center self-center'>
+        <motion.div initial={{ y: -100, opacity: 0 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay:0.8 }} className='mb-6 flex flex-col items-center self-center'>
           <p className='text-sm sm:text-base text-gray-700 mb-2 font-semibold'>Preferred Languages & Frameworks</p>
           <p className='text-2xl animate-bounce'>&#8595;</p>
-        </div>
+        </motion.div>
       </div>
 
       {/* SECTION 2 */}
@@ -47,11 +50,14 @@ function Homepage() {
               <motion.i
                 key={icon}
                 initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  delay: index * 0.2,
-                  duration: 1,
-                  ease: "easeInOut",
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                  transition: { delay: index * 0.2, duration: 1, ease: "easeInOut" }
+                }}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2, ease: "easeInOut" }
                 }}
                 viewport={{ once: true, amount: 0.1 }}
                 className={`devicon-${icon} dev text-7xl sm:text-7xl md:text-8xl lg:text-9xl`}
@@ -74,13 +80,16 @@ function Homepage() {
               "flutter-plain"
             ].map((icon, index) => (
               <motion.i
-                key={icon + "-bottom"}
+                key={icon}
                 initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  delay: index * 0.2,
-                  duration: 1,
-                  ease: "easeInOut",
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                  transition: { delay: index * 0.2, duration: 1, ease: "easeInOut" }
+                }}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2, ease: "easeInOut" }
                 }}
                 viewport={{ once: true, amount: 0.1 }}
                 className={`devicon-${icon} dev text-7xl sm:text-7xl md:text-8xl lg:text-9xl`}

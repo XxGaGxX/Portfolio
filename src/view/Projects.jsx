@@ -27,7 +27,7 @@ function Projects() {
 
   return (
     <div className='min-h-screen pt-20 md:pt-32 pb-16 flex items-center justify-center bg-gradient-to-tr from-amber-300 via-sky-400 to-purple-500'>
-      <div className="w-full max-w-7xl px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+      <div className="w-full pt-10 md:pt-0 max-w-7xl px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
         {
           projects.length <= 0 ? <div>fetching...</div> :
             projects.map((project, index) => (
@@ -43,7 +43,7 @@ function Projects() {
                 key={index}
                 className="w-full bg-white border-gray-200 border-2 rounded-lg shadow-md flex flex-col"
               >
-                <a href={project.Url} target="_blank" rel="noopener noreferrer" className='flex justify-center'>
+                <a href={project.Url} target="_blank" rel="noopener noreferrer" className='flex justify-center p-1'>
                   <img className="w-full h-48 object-cover rounded-t-lg" src={project.Immagine} alt={project.Nome} />
                 </a>
                 <div className="p-5 flex-1 flex flex-col">

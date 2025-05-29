@@ -24,13 +24,13 @@ function Navbar() {
 
                     {/* Desktop links */}
                     <div className="hidden lg:flex gap-10 items-center">
-                        <a href="/projects" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">
+                        <a href="/projects" className="text-sm font-bold text-gray-700 hover:text-yellow-500 transition">
                             Projects
                         </a>
-                        <a href="/studies" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">
+                        <a href="/studies" className="text-sm font-bold text-gray-700 hover:text-yellow-500 transition">
                             Studies
                         </a>
-                        <a href="/contacts" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">
+                        <a href="/contacts" className="text-sm font-bold text-gray-700 hover:text-yellow-500 transition">
                             Contact me
                         </a>
                     </div>
@@ -91,26 +91,34 @@ function Navbar() {
                                 {/* Navigation links */}
                                 <nav className="flex flex-col p-6 space-y-6">
                                     <a
+                                        href="/"
+                                        className="text-gray-800 hover:text-yellow-500 text-lg font-bold transition-colors duration-200 py-2"
+                                        onClick={toggleMenu}
+                                    >
+                                        Home
+                                    </a>
+                                    <a
                                         href="/projects"
-                                        className="text-gray-800 hover:text-yellow-500 text-lg font-medium transition-colors duration-200 py-2"
+                                        className="text-gray-800 hover:text-yellow-500 text-lg font-bold transition-colors duration-200 py-2"
                                         onClick={toggleMenu}
                                     >
                                         Projects
                                     </a>
                                     <a
                                         href="/studies"
-                                        className="text-gray-800 hover:text-yellow-500 text-lg font-medium transition-colors duration-200 py-2"
+                                        className="text-gray-800 hover:text-yellow-500 text-lg font-bold transition-colors duration-200 py-2"
                                         onClick={toggleMenu}
                                     >
                                         Studies
                                     </a>
                                     <a
                                         href="/contacts"
-                                        className="text-gray-800 hover:text-yellow-500 text-lg font-medium transition-colors duration-200 py-2"
+                                        className="text-gray-800 hover:text-yellow-500 text-lg font-bold transition-colors duration-200 py-2"
                                         onClick={toggleMenu}
                                     >
                                         Contact me
                                     </a>
+                                    
                                 </nav>
                             </div>
                         </motion.div>
