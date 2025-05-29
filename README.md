@@ -1,12 +1,87 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](/public/BlockVision.png)
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my personal portfolio website built with React and Vite, showcasing my projects and professional experience. The site features a modern, responsive design with smooth animations and a clean user interface.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Responsive Design**: Fully responsive layout that works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI**: Clean and professional interface with smooth transitions and animations using Framer Motion
+- **Project Showcase**: Dynamic project cards displaying my work with descriptions and links
+- **Performance Optimized**: Built with Vite for lightning-fast load times and optimal performance
+- **Gradient Aesthetics**: Beautiful gradient backgrounds that create an engaging visual experience
+
+## 🛠️ Technologies Used
+
+- **Frontend Framework**: React
+- **Build Tool**: Vite
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Deployment**: Vercel
+
+## 🚦 Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/MyPortfolio.git
+```
+
+2. Install dependencies:
+```bash
+cd MyPortfolio
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 📁 Project Structure
+
+```
+MyPortfolio/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── view/        # Page components
+│   ├── App.jsx      # Main application component
+│   └── main.jsx     # Application entry point
+└── package.json     # Project dependencies and scripts
+```
+
+## 🔧 Configuration
+
+The project uses the following key configurations:
+
+- **Vite**: For fast development and optimized builds
+- **ESLint**: For code quality and consistency
+- **TailwindCSS**: For utility-first CSS styling
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive with breakpoints at:
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🚀 Deployment
+
+This site is deployed on Vercel. Any push to the main branch automatically triggers a new deployment.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+Feel free to reach out if you have any questions or would like to collaborate!
+
+[Add your preferred contact method here]
