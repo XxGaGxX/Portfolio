@@ -5,16 +5,17 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router'
 import Homepage from './view/Homepage'
 import { motion } from "motion/react"
+import Projects from './view/Projects'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
       <Router>
         <Routes>
-          <Route path='/' element={<Homepage/>} />
+          <Route path='/' element={<Homepage />} />
+          <Route path='/projects' element={ <Projects/> } />
         </Routes>
       </Router>
     </div>

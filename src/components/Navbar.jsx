@@ -11,16 +11,16 @@ function Navbar() {
             <nav className="flex items-center justify-between px-6 py-4 lg:px-12 max-w-7xl mx-auto">
                 {/* Logo */}
                 <div className="flex items-center">
-                    <a href="#" className="text-xl font-bold text-gray-900 hover:text-yellow-500 transition-colors duration-300">
+                    <a href="/" className="text-xl font-bold text-gray-900 hover:text-yellow-500 transition-colors duration-300">
                         My Portfolio
                     </a>
                 </div>
 
                 {/* Desktop links */}
                 <div className="hidden lg:flex gap-10 items-center">
-                    <a href="#" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">Projects</a>
-                    <a href="#" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">Studies</a>
-                    <a href="#" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">Contact me</a>
+                    <a href="/projects" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">Projects</a>
+                    <a href="/studies" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">Studies</a>
+                    <a href="/contacts" className="text-sm font-medium text-gray-700 hover:text-yellow-500 transition">Contact me</a>
                 </div>
 
                 {/* Mobile menu button */}
@@ -57,9 +57,9 @@ function Navbar() {
                                 </button>
                             </div>
                             <nav className="flex flex-col space-y-4">
-                                <a href="#" className="text-gray-800 hover:text-yellow-500 text-base font-medium transition">Projects</a>
-                                <a href="#" className="text-gray-800 hover:text-yellow-500 text-base font-medium transition">Studies</a>
-                                <a href="#" className="text-gray-800 hover:text-yellow-500 text-base font-medium transition">Contact me</a>
+                                <a href="/projects" className="text-gray-800 hover:text-yellow-500 text-base font-medium transition">Projects</a>
+                                <a href="/studies" className="text-gray-800 hover:text-yellow-500 text-base font-medium transition">Studies</a>
+                                <a href="/contacts" className="text-gray-800 hover:text-yellow-500 text-base font-medium transition">Contact me</a>
                             </nav>
                         </motion.div>
                     </div>

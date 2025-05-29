@@ -8,7 +8,7 @@ function Homepage() {
       {/* HERO SECTION */}
       <div className='flex flex-col min-h-screen'>
         <div className='flex flex-1 flex-col md:flex-row items-center justify-center h-screen snap-start gap-6 md:gap-14 p-4 md:p-6'>
-          <motion.div className="w-40 h-40 sm:w-2/3 md:w-1/3 lg:w-1/4 shadow-2xl rounded-2xl">
+          <div className="sm:w-2/3 md:w-1/3 lg:w-1/4 shadow-2xl rounded-2xl">
             <motion.img
               src="https://avatars.githubusercontent.com/u/139184713?v=4"
               alt="Diego Vagnini Avatar"
@@ -16,8 +16,7 @@ function Homepage() {
               animate={{ scale: 1, rotate: 360, rotateY: 360 }}
               transition={{ duration: 1 }}
             />
-          </motion.div>
-
+          </div>
           <div className='w-full md:w-1/2 flex flex-col mt-5 px-4 md:px-6 items-start'>
             <p className='text-xl md:text-3xl text-gray-500'>Hi, I'm</p>
             <p className='text-3xl sm:text-5xl lg:text-8xl text-amber-400 leading-tight break-words'>Diego Vagnini</p>
@@ -28,7 +27,7 @@ function Homepage() {
         </div>
 
         <div className='mb-6 flex flex-col items-center self-center'>
-          <p className='text-sm sm:text-base text-gray-700 mb-2'>Preferred Languages & Frameworks</p>
+          <p className='text-sm sm:text-base text-gray-700 mb-2 font-semibold'>Preferred Languages & Frameworks</p>
           <p className='text-2xl animate-bounce'>&#8595;</p>
         </div>
       </div>
