@@ -9,18 +9,18 @@ function Projects() {
       Nome: "BlockVision",
       Url: "https://github.com/XxGaGxX/BlockVision",
       Descrizione: "BlockVision is a web platform designed to analyze and visualize data related to cryptocurrencies and NFTs. Its goal is to provide users with an intuitive interface to explore detailed information about various digital assets, combining real-time data with interactive visualizations",
-      Immagine: "./src/assets/BlockVision.png"
+      Immagine: "/BlockVision.png"
     },
     {
       Nome: " Collaborator in : TravelTracker",
       Url: "https://github.com/rosalinaowo/traveltracker",
       Descrizione: "TravelTracker is a simple travel logging web app built with JavaScript and Vue.js. It allows users to create, view, and manage travel entries with ease. The app features a clean UI and uses Firebase for backend services like authentication and data storage, making it a lightweight solution for tracking travel memories.",
-      Immagine: "./src/assets/TravelTracker.png"  
+      Immagine: "/TravelTracker.png"  
     },
     {
       Nome: 'Crypto Bot',
       Descrizione: 'A Python bot that analyzes the iMACD indicator to detect market trends and sends real-time buy and sell signals via Telegram. Ideal for automating basic crypto or stock trading alerts.',
-      Immagine: './src/assets/work.jpg'
+      Immagine: '/work.jpg'
     }
     ])
   }, [])
