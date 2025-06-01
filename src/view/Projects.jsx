@@ -39,7 +39,7 @@ function Projects() {
                   duration: 1,
                   ease: "easeInOut",
                 }}
-                viewport={{ once: true, amount: 0.1 }}
+                viewport={{ once: true, amount: 0 }}
                 key={index}
                 className="w-full bg-white border-gray-200 border-2 rounded-lg shadow-md flex flex-col"
               >
