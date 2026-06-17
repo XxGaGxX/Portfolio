@@ -13,29 +13,6 @@
       "twitter": "https://twitter.com/diegovagnini"
     }
   },
-  "experience": [
-    {
-      "role": "Senior Full Stack Developer",
-      "company": "Tech Solutions Inc.",
-      "period": "2022 — Present",
-      "description": "Lead development of enterprise-grade web applications using React, Node.js, and PostgreSQL. Architected microservices infrastructure serving 100k+ daily users. Mentored junior developers and established code review standards.",
-      "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker", "Kubernetes"]
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "Digital Agency XYZ",
-      "period": "2020 — 2022",
-      "description": "Delivered 15+ client projects ranging from e-commerce platforms to SaaS dashboards. Implemented CI/CD pipelines reducing deployment time by 70%. Collaborated with UX designers to create accessible, performant interfaces.",
-      "technologies": ["Vue.js", "Laravel", "MySQL", "Tailwind CSS", "GitLab CI"]
-    },
-    {
-      "role": "Junior Developer",
-      "company": "StartupABC",
-      "period": "2018 — 2020",
-      "description": "Built and maintained the core product — a real-time collaboration tool. Developed REST APIs and WebSocket services. Participated in agile ceremonies and contributed to architectural decisions.",
-      "technologies": ["React", "Express", "MongoDB", "Socket.io", "Redis"]
-    }
-  ],
   "skills": {
     "frontend": ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite", "Next.js"],
     "backend": ["Node.js", "Express", "NestJS", ".NET Core", "C#", "Python", "FastAPI"],

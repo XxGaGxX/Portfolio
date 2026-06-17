@@ -2,11 +2,10 @@
 
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import { getPersonalInfo, getExperience, getSkills } from "../utils/data";
+import { getPersonalInfo, getSkills } from "../utils/data";
 import { useReducedMotion } from "../hooks";
 
 const personal = getPersonalInfo();
-const experience = getExperience();
 const skills = getSkills();
 
 export default function About() {
@@ -30,63 +29,6 @@ export default function About() {
               {personal.name}
             </h1>
             <p className="text-xl text-neutral-600 leading-relaxed">{personal.bio}</p>
-          </div>
-        </motion.div>
-      </section>
-
-      {/* Experience Timeline */}
-      <section id="experience" className="section bg-white" aria-labelledby="experience-title">
-        <motion.div
-          className="container"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-        >
-          <div className="section-title max-w-2xl mx-auto mb-16">
-            <span className="label">Professional Journey</span>
-            <h2 id="experience-title">Experience</h2>
-            <div className="divider" />
-            <p className="text-neutral-600 mt-4">Roles that shaped my approach to software engineering</p>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <div className="relative">
-              <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-neutral-200" aria-hidden="true" />
-              {experience.map((job, index) => (
-                <motion.div
-                  key={job.role}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: reducedMotion ? 0 : index * 0.15, ease: [0.4, 0, 0.2, 1] }}
-                  className="relative pl-16 pb-12 last:pb-0"
-                >
-                  <div className="absolute left-0 top-1">
-                    <div className="w-3 h-3 rounded-full bg-primary-600 border-4 border-white shadow-sm relative z-10" aria-hidden="true" />
-                    <div className="absolute left-1/2 -translate-x-1/2 top-3 w-1.5 h-1.5 rounded-full bg-primary-100" aria-hidden="true" />
-                  </div>
-
-                  <div className="card p-6 hover:shadow-lg transition-shadow duration-300">
-                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
-                      <div>
-                        <h3 className="text-heading-sm font-semibold text-neutral-900">{job.role}</h3>
-                        <p className="text-primary-600 font-medium mt-1">{job.company}</p>
-                      </div>
-                      <time className="text-sm text-neutral-500 font-medium whitespace-nowrap">{job.period}</time>
-                    </div>
-                    <p className="text-neutral-600 mb-4">{job.description}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {job.technologies.map((tech) => (
-                        <span key={tech} className="badge badge-primary text-xs">
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
           </div>
         </motion.div>
       </section>

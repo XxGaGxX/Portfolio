@@ -1,7 +1,6 @@
 import portfolioData from "../data/portfolio.json";
 
 export const getPersonalInfo = () => portfolioData.personal;
-export const getExperience = () => portfolioData.experience;
 export const getSkills = () => portfolioData.skills;
 export const getProjects = () => portfolioData.projects;
 export const getProjectById = (id) => portfolioData.projects.find((p) => p.id === id);
