@@ -225,7 +225,6 @@ function ProjectDetail({ project }) {
 export default function Projects() {
   const [filter, setFilter] = useState("all");
   const [search, setSearch] = useState("");
-  const location = useLocation();
   const params = useParams();
   const reducedMotion = useReducedMotion();
 
