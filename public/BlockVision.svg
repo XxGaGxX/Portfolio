@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#f4f0fb"/>
+  <rect x="100" y="80" width="600" height="290" rx="12" fill="white" stroke="#cfbfed" stroke-width="2"/>
+  <rect x="140" y="110" width="520" height="40" rx="6" fill="#e5ddf5"/>
+  <rect x="140" y="170" width="300" height="16" rx="4" fill="#b29ae0"/>
+  <rect x="140" y="200" width="450" height="12" rx="3" fill="#cfbfed"/>
+  <rect x="140" y="225" width="450" height="12" rx="3" fill="#cfbfed"/>
+  <rect x="140" y="255" width="280" height="12" rx="3" fill="#cfbfed"/>
+  <rect x="140" y="300" width="120" height="36" rx="8" fill="#6747a3"/>
+  <rect x="140" y="350" width="200" height="16" rx="4" fill="#b29ae0"/>
+  <circle cx="660" cy="130" r="15" fill="#eab308" opacity="0.4"/>
+  <text x="400" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#525252">BlockVision — Crypto & NFT Analytics Dashboard</text>
+</svg>

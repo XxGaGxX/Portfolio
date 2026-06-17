@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#392a59"/>
+  <rect x="100" y="80" width="600" height="290" rx="12" fill="#231a3a" stroke="#6747a3" stroke-width="2"/>
+  <rect x="120" y="100" width="200" height="140" rx="8" fill="#392a59" stroke="#533a85" stroke-width="1"/>
+  <rect x="140" y="115" width="160" height="10" rx="3" fill="#9675d0"/>
+  <rect x="140" y="145" width="100" height="6" rx="2" fill="#b29ae0" opacity="0.6"/>
+  <rect x="140" y="175" width="140" height="40" rx="6" fill="#16a34a" opacity="0.2"/>
+  <text x="220" y="192" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#16a34a">+12.4% ROI</text>
+  <rect x="350" y="100" width="320" height="140" rx="8" fill="#392a59" stroke="#533a85" stroke-width="1"/>
+  <path d="M370 180 Q420 160 470 170 Q520 180 570 150 Q620 120 650 140" stroke="#eab308" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="650" cy="140" r="4" fill="#eab308"/>
+  <rect x="370" y="120" width="120" height="20" rx="4" fill="#ca8a04" opacity="0.3"/>
+  <text x="430" y="133" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#fde047">BTC/USDT</text>
+  <rect x="120" y="270" width="550" height="80" rx="8" fill="#392a59" stroke="#533a85" stroke-width="1"/>
+  <rect x="140" y="285" width="120" height="50" rx="6" fill="#6747a3"/>
+  <text x="200" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="white">BUY</text>
+  <rect x="280" y="285" width="120" height="50" rx="6" fill="#dc2626"/>
+  <text x="340" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="white">SELL</text>
+  <rect x="420" y="285" width="120" height="50" rx="6" fill="#16a34a"/>
+  <text x="480" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="white">HOLD</text>
+  <text x="400" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#a3a3a3">Crypto Trading Bot — Algorithmic Signals</text>
+</svg>

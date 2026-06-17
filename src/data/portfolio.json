@@ -1,0 +1,129 @@
+{
+  "personal": {
+    "name": "Diego Vagnini",
+    "title": "Full Stack Developer",
+    "subtitle": "Building scalable web applications with clean architecture",
+    "email": "diegovagnini.business@gmail.com",
+    "location": "Italy",
+    "avatar": "/avatar.jpg",
+    "bio": "I'm a Full Stack Developer with a passion for crafting robust, scalable web applications. With expertise spanning React, Node.js, .NET, and cloud technologies, I help businesses transform complex requirements into elegant technical solutions. My approach combines clean architecture principles with pragmatic delivery — writing code that's maintainable, testable, and built to scale.",
+    "social": {
+      "github": "https://github.com/XxGaGxX",
+      "linkedin": "https://linkedin.com/in/diegovagnini",
+      "twitter": "https://twitter.com/diegovagnini"
+    }
+  },
+  "experience": [
+    {
+      "role": "Senior Full Stack Developer",
+      "company": "Tech Solutions Inc.",
+      "period": "2022 — Present",
+      "description": "Lead development of enterprise-grade web applications using React, Node.js, and PostgreSQL. Architected microservices infrastructure serving 100k+ daily users. Mentored junior developers and established code review standards.",
+      "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker", "Kubernetes"]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Digital Agency XYZ",
+      "period": "2020 — 2022",
+      "description": "Delivered 15+ client projects ranging from e-commerce platforms to SaaS dashboards. Implemented CI/CD pipelines reducing deployment time by 70%. Collaborated with UX designers to create accessible, performant interfaces.",
+      "technologies": ["Vue.js", "Laravel", "MySQL", "Tailwind CSS", "GitLab CI"]
+    },
+    {
+      "role": "Junior Developer",
+      "company": "StartupABC",
+      "period": "2018 — 2020",
+      "description": "Built and maintained the core product — a real-time collaboration tool. Developed REST APIs and WebSocket services. Participated in agile ceremonies and contributed to architectural decisions.",
+      "technologies": ["React", "Express", "MongoDB", "Socket.io", "Redis"]
+    }
+  ],
+  "skills": {
+    "frontend": ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite", "Next.js"],
+    "backend": ["Node.js", "Express", "NestJS", ".NET Core", "C#", "Python", "FastAPI"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQL Server"],
+    "cloud": ["AWS", "Docker", "Kubernetes", "GitHub Actions", "GitLab CI", "Vercel"],
+    "tools": ["Git", "VS Code", "Postman", "Figma", "Jira", "Linear"]
+  },
+  "projects": [
+    {
+      "id": "blockvision",
+      "name": "BlockVision",
+      "tagline": "Cryptocurrency & NFT Analytics Platform",
+      "description": "A comprehensive web platform for analyzing and visualizing cryptocurrency and NFT data. Features real-time market data, interactive charts, portfolio tracking, and advanced filtering capabilities.",
+      "longDescription": "BlockVision was built to solve the fragmentation in crypto data analysis. The platform aggregates data from multiple blockchain networks and presents it through an intuitive dashboard with customizable widgets. Users can track portfolio performance, set price alerts, and analyze market trends with institutional-grade visualizations.",
+      "image": "/BlockVision.svg",
+      "url": "https://github.com/XxGaGxX/BlockVision",
+      "liveUrl": "https://blockvision.example.com",
+      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "WebSocket", "Chart.js", "Tailwind CSS", "Docker"],
+      "role": "Full Stack Developer (Solo)",
+      "duration": "6 months",
+      "highlights": [
+        "Real-time data ingestion from 5+ blockchain networks",
+        "Interactive charts with 60fps performance",
+        "Automated testing pipeline with 85% coverage",
+        "Deployed on AWS with zero-downtime deployments"
+      ]
+    },
+    {
+      "id": "traveltracker",
+      "name": "TravelTracker",
+      "tagline": "Travel Logging & Memory Preservation App",
+      "description": "A travel logging web application built with Vue.js and Firebase. Users can create rich travel entries with photos, locations, and notes. Features collaborative trip planning and offline-first synchronization.",
+      "longDescription": "TravelTracker started as a personal project to document adventures and evolved into a collaborative platform. The app leverages Firebase for real-time sync, authentication, and offline persistence. Users can invite travel companions, create shared itineraries, and export memories as beautiful PDF journals.",
+      "image": "/TravelTracker.svg",
+      "url": "https://github.com/XxGaGxX/traveltracker",
+      "liveUrl": "https://traveltracker.example.com",
+      "technologies": ["Vue.js 3", "Firebase", "Pinia", "Tailwind CSS", "PWA", "IndexedDB"],
+      "role": "Core Contributor",
+      "duration": "4 months",
+      "highlights": [
+        "Offline-first architecture with background sync",
+        "Real-time collaborative editing",
+        "PWA with install prompts and push notifications",
+        "99.9% uptime on Firebase hosting"
+      ]
+    },
+    {
+      "id": "crypto-bot",
+      "name": "Crypto Trading Bot",
+      "tagline": "Algorithmic Trading Signal Generator",
+      "description": "A Python-based trading bot that analyzes MACD indicators across multiple timeframes to generate buy/sell signals. Delivers real-time alerts via Telegram with configurable risk management.",
+      "longDescription": "This bot implements a multi-timeframe MACD strategy with volume confirmation and risk management rules. It monitors 20+ trading pairs simultaneously, applies position sizing based on volatility, and sends formatted alerts with entry, stop-loss, and take-profit levels. Built with asyncio for high-throughput data processing.",
+      "image": "/work.svg",
+      "url": "https://github.com/XxGaGxX/crypto-bot",
+      "technologies": ["Python", "asyncio", "ccxt", "TA-Lib", "Telegram Bot API", "PostgreSQL", "Docker"],
+      "role": "Solo Developer",
+      "duration": "3 months",
+      "highlights": [
+        "Sub-second signal generation across 20+ pairs",
+        "Backtesting engine with walk-forward validation",
+        "Risk management: max 2% portfolio per trade",
+        "Containerized deployment with health monitoring"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Marco Rossi",
+      "role": "CTO at TechStart",
+      "content": "Diego delivered our MVP in record time with code quality that exceeded expectations. His architectural decisions saved us months of refactoring later.",
+      "avatar": "/testimonial-1.jpg"
+    },
+    {
+      "author": "Sara Bianchi",
+      "role": "Product Manager at DigitalCorp",
+      "content": "Working with Diego was seamless — he translates vague requirements into solid technical specs and communicates proactively. A true partner, not just a contractor.",
+      "avatar": "/testimonial-2.jpg"
+    },
+    {
+      "author": "Luca Verdi",
+      "role": "Founder at ScaleUp Labs",
+      "content": "Diego's expertise in both frontend and backend meant we didn't need separate hires. He owned features end-to-end with remarkable autonomy.",
+      "avatar": "/testimonial-3.jpg"
+    }
+  ],
+  "stats": {
+    "projectsCompleted": "25+",
+    "yearsExperience": "6+",
+    "clientsSatisfied": "15+"
+  }
+}

@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "NODE_OPTIONS='--disable-warning=DEP0205' vite",
+    "build": "NODE_OPTIONS='--disable-warning=DEP0205' vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "NODE_OPTIONS='--disable-warning=DEP0205' vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@preline/collapse": "^3.0.0",
     "@tailwindcss/vite": "^4.1.7",
     "motion": "^12.15.0",

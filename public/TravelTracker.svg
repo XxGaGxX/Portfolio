@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#f4f0fb"/>
+  <rect x="100" y="80" width="600" height="290" rx="12" fill="white" stroke="#cfbfed" stroke-width="2"/>
+  <rect x="100" y="80" width="600" height="50" rx="12" fill="#e5ddf5"/>
+  <circle cx="130" cy="105" r="12" fill="#eab308"/>
+  <rect x="160" y="95" width="180" height="20" rx="4" fill="#b29ae0"/>
+  <rect x="140" y="160" width="220" height="220" rx="8" fill="#e5ddf5" stroke="#cfbfed" stroke-width="1" stroke-dasharray="8,4"/>
+  <rect x="390" y="160" width="280" height="100" rx="8" fill="#f4f0fb"/>
+  <rect x="410" y="180" width="240" height="16" rx="4" fill="#b29ae0"/>
+  <rect x="410" y="210" width="200" height="12" rx="3" fill="#cfbfed"/>
+  <rect x="410" y="235" width="160" height="12" rx="3" fill="#cfbfed"/>
+  <rect x="390" y="290" width="280" height="60" rx="8" fill="#ca8a04" opacity="0.1"/>
+  <rect x="410" y="305" width="120" height="30" rx="6" fill="#ca8a04"/>
+  <text x="400" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#525252">TravelTracker — Collaborative Travel Logging PWA</text>
+</svg>
