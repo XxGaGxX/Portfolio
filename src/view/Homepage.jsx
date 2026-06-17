@@ -189,8 +189,8 @@ export default function Homepage() {
               {
                 id: "traveltracker",
                 title: "TravelTracker",
-                tagline: "Collaborative Travel Logging",
-                description: "Offline-first PWA with real-time sync, collaborative trip planning, and beautiful PDF journal exports.",
+                tagline: "Collaborative Travel Logging — School Project",
+                description: "A travel logging web app built with Vue.js and Firebase during my school-work alternance program in 5th year of high school.",
                 tech: ["Vue.js 3", "Firebase", "Pinia", "Tailwind CSS", "PWA", "IndexedDB"],
                 image: "/TravelTracker.svg",
               },

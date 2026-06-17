@@ -43,20 +43,19 @@
     {
       "id": "traveltracker",
       "name": "TravelTracker",
-      "tagline": "Travel Logging & Memory Preservation App",
-      "description": "A travel logging web application built with Vue.js and Firebase. Users can create rich travel entries with photos, locations, and notes. Features collaborative trip planning and offline-first synchronization.",
-      "longDescription": "TravelTracker started as a personal project to document adventures and evolved into a collaborative platform. The app leverages Firebase for real-time sync, authentication, and offline persistence. Users can invite travel companions, create shared itineraries, and export memories as beautiful PDF journals.",
+      "tagline": "Travel Logging Web App — School Project",
+      "description": "A travel logging web application built with Vue.js and Firebase during my school-work alternance program. Features collaborative trip planning and offline-first synchronization.",
+      "longDescription": "TravelTracker was developed as part of my school-work alternance project in 5th year of high school. The app leverages Firebase for real-time sync, authentication, and offline persistence. Users can create travel entries, invite companions, and share itineraries.",
       "image": "/TravelTracker.svg",
       "url": "https://github.com/XxGaGxX/traveltracker",
-      "liveUrl": "https://traveltracker.example.com",
       "technologies": ["Vue.js 3", "Firebase", "Pinia", "Tailwind CSS", "PWA", "IndexedDB"],
-      "role": "Core Contributor",
-      "duration": "4 months",
+      "role": "Student Developer",
+      "duration": "School project",
       "highlights": [
+        "School-work alternance project",
         "Offline-first architecture with background sync",
         "Real-time collaborative editing",
-        "PWA with install prompts and push notifications",
-        "99.9% uptime on Firebase hosting"
+        "PWA with install prompts and push notifications"
       ]
     },
     {
